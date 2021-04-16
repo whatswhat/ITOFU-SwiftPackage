@@ -17,7 +17,7 @@ let package = Package(
     products: [
         .library(
             name: "EmojiKit",
-            targets: ["Emojier", "EmojiView"]),
+            targets: ["EmojiView"]),
     ],
     dependencies: [
         .package(url: "https://github.com/onmyway133/Smile", from: "2.1.0")
