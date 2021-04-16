@@ -28,11 +28,12 @@ public class EmojiView: UIView {
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         self.addSubview(contentView)
+        
+        
+        emojiLabel.text = NSLocalizedString("Text", bundle: .module, comment: "標題")
     }
  
     public func setEmoji(_ keyword: String) {
-        
-        
         
 //        self.text = Emojier().searchEmoji(keyword)
 //
