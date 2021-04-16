@@ -9,16 +9,16 @@ import Foundation
 import UIKit
 import Emojier
 
-class EmojiView: UIView {
+public class EmojiView: UIView {
     @IBOutlet public weak var contentView: UIView!
     @IBOutlet public weak var emojiLabel: UILabel!
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         commonInit()
     }
